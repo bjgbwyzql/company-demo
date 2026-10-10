@@ -1,5 +1,7 @@
 tasks = []
 
+def greet():
+    print("Welcome to Todo App!")
 
 def add_task(text):
     tasks.append({"text": text, "done": False})
